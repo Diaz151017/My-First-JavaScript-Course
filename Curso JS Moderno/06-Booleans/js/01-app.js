@@ -7,4 +7,7 @@ const boolean3 = "true";//Esto no es un booleano, es una cadena de texto.
 
 //console.log(typeof boolean1); // "boolean"
 
-console.log(boolean1 == boolean3); 
+console.log(boolean1 == boolean3);
+
+const boolean4 = new Boolean(true);// Esto crea un objeto Boolean, no un valor booleano primitivo.
+console.log(boolean4);// [Boolean: true]
